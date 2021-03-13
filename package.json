@@ -1,6 +1,6 @@
 {
   "name": "react-ts-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "boilerplate for react w/ typescript based on webpack builder",
   "main": "index.js",
   "author": "Nikita Povalishev",
@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "build": "webpack --config config/webpack.prod.js",
-    "start": "webpack --config config/webpack.dev.js"
+    "start": "webpack serve --open --config config/webpack.dev.js"
   },
   "devDependencies": {
     "@svgr/webpack": "^5.5.0",
